@@ -1,0 +1,33 @@
+.cardImage{
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    margin: 5px;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px 0px #000;
+}
+.cardImage-data{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: rgba(22,22,22,.5);
+    transition: opacity .2s;
+}
+
+.cardImage-data h5{
+    overflow-wrap: break-word;
+}
+
+.cardImage-data p{
+    margin: 0px;
+}
+
+.cardImage:hover > .cardImage-data{
+    opacity: 100;
+}

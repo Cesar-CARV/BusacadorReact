@@ -1,0 +1,103 @@
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(22, 22, 22, .3);
+    z-index: 200;
+}
+
+.modal-card{
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    /* padding: 10px; */
+    width: 90%;
+    /* height: 85vh; */
+    max-width: 500px;
+    /* max-height: 590px; */
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+.modal-card_header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #222;
+}
+
+.modal-card_cerrar{
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: #222;
+    background-color: #eee;
+}
+
+.modal-card_cerrar:hover{
+    color: #fff;
+    background-color: #555;
+}
+
+.modal-card_header .image{
+    margin-top: -30px;
+    width: 100px;
+    height: 100px;
+}
+
+.modal-card_body .tags{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.modal-card_body .tags .tag{
+    border: none;
+    border-radius: 50px;
+    background-color: #ddd;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.modal-card_body .stadistics{
+    padding: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.modal-card_body .stadistics p{
+    margin: 5px;
+}
+
+.modal-card_body .links{
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.modal-card_body .links .btn{
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #222;
+}

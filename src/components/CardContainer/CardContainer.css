@@ -1,0 +1,25 @@
+.cardContaer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+    width: 60%;
+    max-width: 850px;
+}
+
+.cardContaer button{
+    display: block;
+}
+
+@media (max-width: 800px){
+    .cardContaer{
+        width: 90%;
+    }
+}
+
+@media (max-width: 600px){
+    .cardContaer{
+        width: 100%;
+    }
+}
