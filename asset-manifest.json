@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/BusacadorReact/static/css/main.282717bb.chunk.css",
+    "main.js": "/BusacadorReact/static/js/main.2779df30.chunk.js",
+    "main.js.map": "/BusacadorReact/static/js/main.2779df30.chunk.js.map",
+    "runtime-main.js": "/BusacadorReact/static/js/runtime-main.55a20e94.js",
+    "runtime-main.js.map": "/BusacadorReact/static/js/runtime-main.55a20e94.js.map",
+    "static/js/2.09cece8e.chunk.js": "/BusacadorReact/static/js/2.09cece8e.chunk.js",
+    "static/js/2.09cece8e.chunk.js.map": "/BusacadorReact/static/js/2.09cece8e.chunk.js.map",
+    "index.html": "/BusacadorReact/index.html",
+    "static/css/main.282717bb.chunk.css.map": "/BusacadorReact/static/css/main.282717bb.chunk.css.map",
+    "static/js/2.09cece8e.chunk.js.LICENSE.txt": "/BusacadorReact/static/js/2.09cece8e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55a20e94.js",
+    "static/js/2.09cece8e.chunk.js",
+    "static/css/main.282717bb.chunk.css",
+    "static/js/main.2779df30.chunk.js"
+  ]
+}
